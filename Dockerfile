@@ -1,5 +1,6 @@
 # Use an official Node.js runtime as a parent image
-FROM node:14-alpine
+#FROM node:14-alpine
+FROM alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/node:20.16
 
 # Set the working directory in the container
 WORKDIR /app
